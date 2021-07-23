@@ -8,15 +8,20 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="maindiv">
-    <div class="bar">
-      <div class="face"></div>
-      <div class="face"></div>
-      <div class="face"></div>
-      <div class="face"></div>
-    </div>
-  </div>
-  <h1>Test</h1>
+  <ul>
+    <li><a href="index.html" class="active">Vanilla JS</a></li>
+    <li><a href="jquery.html" class="active">jQuery plugin</a></li>
+    <li><a href="angular.html" class="active">Angular module</a></li>
+    <li><a href="requirejs.html" class="active">RequireJS module</a></li>
+  </ul>
+
+  <span class="chart" data-percent="86">
+    <span class="percent"></span>
+  </span>
+
+  <span class="btn js_update">Update Chart</span>
+
+  <script src="../dist/easypiechart.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

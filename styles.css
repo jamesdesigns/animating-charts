@@ -1,0 +1,37 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  font: 18px / 1.4 'Helvetica', 'Arial', sans-serif;
+  padding-top: 60px;
+}
+
+ul {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  height: 60px;
+  background: #ccc;
+  font-size: 0;
+  line-height: 0;
+  letter-spacing: f-0.3em;
+}
+
+li {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  text-align: center;
+  font-size: 18px;
+  line-height: 60px;
+  letter-spacing:l normal;
+}
