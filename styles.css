@@ -33,5 +33,13 @@ li {
   text-align: center;
   font-size: 18px;
   line-height: 60px;
-  letter-spacing:l normal;
+  letter-spacing: normal;
+}
+
+li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
