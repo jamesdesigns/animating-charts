@@ -308,7 +308,8 @@ var EasyPieChart = function(el, opts) {
 		if (el.dataset && el.dataset.percent) {
 			this.update(parseFloat(el.dataset.percent));
 		} else if (el.getAttribute && el.getAttribute('data-percent')) {
-			this.update(parseFloat(el.getAttribute('data-percent')));
+			this.update(parseFloat(el.getAttribute('data-percent'))
+      );
 		}
 	}.bind(this);
 
