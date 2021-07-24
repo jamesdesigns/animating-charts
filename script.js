@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // document.querySelector('.js_update').addEventListener('click', function(e) {
   //   chart.update(Math.random()*200-100);
   // });
-  
+
   // This adds the animation on the window loading
   document.querySelector('.js_update').window.onload(chart.update(Math.random()*200-100));
 });
