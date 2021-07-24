@@ -1,3 +1,4 @@
+/* Easy Pie Chart Styles */
 html,
 body {
   padding: 0;
@@ -37,19 +38,4 @@ body {
   content: '%';
   margin-left: 0.1em;
   font-size: .8em;
-}
-
-.span6 {
-  float: left;
-  width: 50%;
-}
-
-@media only screen and (max-width: 430px) {
-  .span6 {
-    float: none;
-    width: 100%;
-  }
-  body {
-    padding-top: 0;
-  }
 }

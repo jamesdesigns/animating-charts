@@ -1,3 +1,5 @@
+/* Easy Pie Chart */
+
 document.addEventListener('DOMContentLoaded', function() {
   let chart = window.chart = new EasyPieChart(document.querySelector('span'), {
     easing: 'easeOutElastic',
@@ -12,12 +14,5 @@ document.addEventListener('DOMContentLoaded', function() {
       this.el.children[0].innerHTML = Math.round(percent);
     }
   });
-
-  // document.querySelector('.js_update').addEventListener('click', function(e) {
-  //   chart.update(Math.random()*200-100);
-  // });
-
-  // This adds the animation on the window loading
-  // document.querySelector('.js_update').onload(chart.update(Math.random()*200-100));
 });
 
