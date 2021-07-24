@@ -18,6 +18,6 @@ document.addEventListener('DOMContentLoaded', function() {
   // });
 
   // This adds the animation on the window loading
-  document.querySelector('.js_update').window.onload(chart.update(Math.random()*200-100));
+  // document.querySelector('.js_update').onload(chart.update(Math.random()*200-100));
 });
 
